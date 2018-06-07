@@ -1,0 +1,14 @@
+body {
+    background-color: rgba(21, 21, 21, 1);
+    color: white;
+}
+
+.header {
+    color: lime;
+    text-align: center;
+}
+
+.carpet {
+    display=none;
+}
+

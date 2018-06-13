@@ -1,6 +1,8 @@
+/* Base Style */
+
 body {
-    background-color: rgba(21, 21, 21, 1);
-    color: white;
+    background-color: rgba(0);
+    color: black;
 }
 
 .header {
@@ -8,7 +10,12 @@ body {
     text-align: center;
 }
 
-.carpet {
-    display=none;
+/* Set element to none for button toggle */
+#info {
+    display: none;
 }
 
+
+#info {
+    color:red;
+}

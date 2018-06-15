@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    color: lime;
+    color: purple;
     text-align: center;
 }
 
@@ -16,6 +16,8 @@ body {
 }
 
 
-#info {
-    color:red;
+/* Image Control */
+.speciesPic {
+    height: 40vw;
+    width: 40vw;
 }

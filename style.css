@@ -3,21 +3,107 @@
 body {
     background-color: rgba(0);
     color: black;
+    font-family: sans-serif;
 }
 
-.header {
+.title {
+    font-size:60px;
+}
+
+.hometext {
+    margin: 0 auto;
     color: purple;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper {
+    background-image: url(Images/background.jpeg);
+    background-color: gray;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+#species {
+    justify-content: center;
+}
+
+.navigation {
+    list-style-type: none;
+}
+   
+
+.content {
+    margin: 0 4em;
+}
+
+#contact {
     text-align: center;
 }
 
+#carpetInfo {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+#chemInfo {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+#hogInfo {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+#treeInfo {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
 /* Set element to none for button toggle */
+
+
 #info {
     display: none;
 }
+
+
 
 
 /* Image Control */
 .speciesPic {
     height: 40vw;
     width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;;
 }
+
+#carpetInfo {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 2;
+}
+
+/* Media Query */
+
+
+@media only screen 
+  and (max-width: 480px) {
+      body {margin: .5em;}
+  }

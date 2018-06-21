@@ -16,7 +16,7 @@ carpetInfo.onclick = function() {
     else {
         infoShow.style.display = 'block';
         infoShow.innerHTML = "<img id='python' class='speciesPic' src='Images/python.jpeg' alt='Close up of pythons head'>"
-        infoShow.innerHTML += "Semiarboreal snakes inhabiting Queensland Australia, Jungle Carpets are a popular breed to keep for pets.";
+        infoShow.innerHTML += "<br>Semiarboreal snakes inhabiting Queensland Australia, Jungle Carpets are a popular breed to keep for pets.";
         infoShow.innerHTML += "<br><strong>Temperment:</strong> Aside from a strong feeding response, docile and easy to handle.";
         infoShow.innerHTML += "<br><strong>Husbandry:</strong> Temps should be around 90\xB0 Ferenheit. Humidity should be between 40% and 60%. Some type of branch for the snake to perch on should be provided. Recommended substrate would be dirt, though newspaper and tile are common.";
         infoShow.innerHTML += "<br><strong>Diet:</strong> Frozen mice or rats.";
@@ -32,7 +32,7 @@ chemInfo.onclick = function() {
     else {
         infoShow.style.display = 'block';
         infoShow.innerHTML = "<img id='chem' class='speciesPic' src='Images/chem.jpg' alt='Chemeleon on branch'>"
-        infoShow.innerHTML += "Semiarboreal snakes inhabiting Queensland Australia, Jungle Carpets are a popular breed to keep for pets.";
+        infoShow.innerHTML += "<br>Semiarboreal snakes inhabiting Queensland Australia, Jungle Carpets are a popular breed to keep for pets.";
         infoShow.innerHTML += "<br><strong>Temperment:</strong> Aside from a strong feeding response, docile and easy to handle.";
         infoShow.innerHTML += "<br><strong>Husbandry:</strong> Temps should be around 90\xB0 Ferenheit. Humidity should be between 40% and 60%. Some type of branch for the snake to perch on should be provided. Recommended substrate would be dirt, though newspaper and tile are common.";
         infoShow.innerHTML += "<br><strong>Diet:</strong> Frozen mice or rats.";
@@ -64,7 +64,7 @@ treeInfo.onclick = function() {
     else {
         infoShow.style.display = 'block';
         infoShow.innerHTML = "<img id='gtp' class='speciesPic' src='Images/gtp.jpeg' alt='Green Tree Python on branch'>"
-        infoShow.innerHTML += "Semiarboreal snakes inhabiting Queensland Australia, Jungle Carpets are a popular breed to keep for pets.";
+        infoShow.innerHTML += "<br>Semiarboreal snakes inhabiting Queensland Australia, Jungle Carpets are a popular breed to keep for pets.";
         infoShow.innerHTML += "<br><strong>Temperment:</strong> Aside from a strong feeding response, docile and easy to handle.";
         infoShow.innerHTML += "<br><strong>Husbandry:</strong> Temps should be around 90\xB0 Ferenheit. Humidity should be between 40% and 60%. Some type of branch for the snake to perch on should be provided. Recommended substrate would be dirt, though newspaper and tile are common.";
         infoShow.innerHTML += "<br><strong>Diet:</strong> Frozen mice or rats.";

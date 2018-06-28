@@ -10,8 +10,8 @@
     <body>
 
         <div class="header">    
-            <div class="wrapper">
-                <div class="hometext">
+            <div class="grayscale">
+                <div class="notgrayscale"> <!-- Allows me to change font color and have background image grayscale-->
                     <div class='title'>Voodoo Reptiles</div>
                     <nav>
                         <ul class= "navigation">
@@ -36,13 +36,14 @@
         <div id="species">
         <p>
             <h3>What we offer: Select a species to learn more.</h3>
-            <button id="carpetInfo">Carpet Pythons</button> 
-            <button id="chemInfo"> Jackson Chemeleons </button>
-            <button id="hogInfo"> Wester Hognose </button>
-            <button id="treeInfo"> Green Tree Python </button>
+                <div id='buttoncontrol'>
+                    <button id="carpetInfo">Carpet Pythons</button> 
+                    <button id="chemInfo"> Chemeleons </button>
+                    <button id="hogInfo"> Wester Hognose </button>
+                    <button id="treeInfo"> Green Tree Python </button>
 
-            <div id="info"> </div>  <!-- Empty, buttons run function to add information to DOM. -->
-           
+                    <div id="info"> </div>  <!-- Empty, buttons run function to add information to DOM. -->
+                </div>
             
         </p>
 

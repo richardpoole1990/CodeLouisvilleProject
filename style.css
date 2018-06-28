@@ -8,17 +8,19 @@ body {
 
 .title {
     font-size:60px;
+    display: flex;
+    align-self: flex-start;
 }
 
-.hometext {
+/* Changes seperate entity styling */
+.notgrayscale {
     margin: 0 auto;
     color: purple;
-    text-align: center;
     font-size: 20px;
     font-weight: bold;
 }
 
-.wrapper {
+.grayscale {
     background-image: url(Images/background.jpeg);
     background-color: gray;
     background-blend-mode: luminosity;
@@ -29,12 +31,14 @@ body {
     margin: 10px 0;
 }
 
-#species {
-    justify-content: center;
+#buttoncontrol {
+    font-size: 1.25em;
 }
 
 .navigation {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
    
 
@@ -74,6 +78,10 @@ body {
     border-radius: 25px;
 }
 
+#buttoncontrol {
+    flex-direction: row;
+}
+
 /* Set element to none for button toggle */
 
 
@@ -106,4 +114,16 @@ body {
 @media only screen 
   and (max-width: 480px) {
       body {margin: .5em;}
+      #buttoncontrol {
+        flex-direction: column;
+        font-size: 1em; 
+        justify-content: space-between;}
+  }
+
+  @media only screen 
+  and (max-width: 600px) {
+      body {margin: .5em;}
+      #buttoncontrol {
+        flex-direction: column;
+        font-size: 1em;}
   }

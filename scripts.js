@@ -27,7 +27,8 @@ carpetInfo.onclick = function() {
 chemInfo.onclick = function() {
     var infoShow = document.getElementById('info');
     if (infoShow.style.display == 'block') {
-        infoShow.style.display = 'none';      
+        infoShow.style.display = 'none';
+        infoShow.innerHTML = " ";      
         }
     else {
         infoShow.style.display = 'block';
@@ -43,7 +44,8 @@ chemInfo.onclick = function() {
 hogInfo.onclick = function() {
     var infoShow = document.getElementById('info');
     if (infoShow.style.display == 'block') {
-        infoShow.style.display = 'none';      
+        infoShow.style.display = 'none';
+        infoShow.innerHTML = " ";       
       }
     else {
         infoShow.style.display = 'block';
@@ -59,7 +61,8 @@ hogInfo.onclick = function() {
 treeInfo.onclick = function() {
     var infoShow = document.getElementById('info');
     if (infoShow.style.display == 'block') {
-        infoShow.style.display = 'none';      
+        infoShow.style.display = 'none';
+        infoShow.innerHTML = " ";       
       }
     else {
         infoShow.style.display = 'block';

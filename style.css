@@ -46,8 +46,11 @@ body {
 .navigation {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
-    align-self: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: purple;
+
 }
    
 
@@ -124,13 +127,13 @@ body {
 
 
 @media only screen 
-  and (max-width: 480px) {
+  and (max-width: 830px) {
       body {margin: .5em;}
       #buttoncontrol {
         display: flex;
         flex-direction: column;
         font-size: 1em; 
-        justify-content: space-between;}
+        align-content: center;}
   }
 
   @media only screen 
@@ -141,4 +144,7 @@ body {
         flex-direction: column;
         justify-content: space-between;
         font-size: 1em;}
-  }
+      .navigation {
+          flex-direction: column;
+      }
+      }

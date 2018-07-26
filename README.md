@@ -6,7 +6,7 @@ Site made to help sell snakes for local breeder. After site loads, user can clic
 
 Requirements:
 
-Your project is responsive to different devices and/or browser sizes and improves the user experience in some way based on what type of device the project is viewed from - My site moves buttons row with text under, to column with text under.
+Your project is responsive to different devices and/or browser sizes and improves the user experience in some way based on what type of device the project is viewed from - Mobile screens will see two paragraphs in a column, with a navigation bar at the top. After screen gets larger than 600px, then paragraphs will change to two columns. Buttons will display in a column on mobiles, and as screen gets larger starts to form a row. 
 
 Your project includes at least 3 custom CSS class and/or ID selectors which are applied to your HTML elements - Currently sitting at 14 disregarding media queries. 
 

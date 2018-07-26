@@ -6,6 +6,14 @@ body {
     font-family: sans-serif;
 }
 
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-grid-thirds .col {
+    width: 48%;
+  }
+
 .title {
     font-size:60px;
     display: flex;
@@ -134,9 +142,10 @@ body {
         flex-direction: column;
         font-size: 1em; 
         align-content: center;}
+
   }
 
-  @media only screen 
+@media only screen 
   and (max-width: 600px) {
       body {margin: .5em;}
       #buttoncontrol {
@@ -146,5 +155,14 @@ body {
         font-size: 1em;}
       .navigation {
           flex-direction: column;
+      }
+      .flex-grid-thirds {
+          flex-direction: column;
+          align-content: center;
+          margin: .5px;
+          justify-content: space-around;
+      }
+      .grayscale {
+          height: 77vw;
       }
       }
